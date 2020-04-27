@@ -1,0 +1,269 @@
+#Thebox{
+  display: box;
+  background-color: white;
+  border-style: ridge;
+  border-color: black;
+  border-width: 0.3em;
+  border-radius: 3%;
+  width: 30.5%;
+  height: 215px;
+  padding-left: 2em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  float: left;
+  margin-right: 0.5em;
+  
+}
+
+.pName{
+  font-size: larger;
+  font-weight: 600;
+  line-height: 1em;
+
+}
+.contentIMG{
+  float: right;
+  /*padding-right: 2em;*/
+  margin-right: 1em;
+  width: 140px;
+  height: 200px;
+
+}
+body{
+  background-color: #541C41     ;
+  width: 99.5%
+}
+.loadgif{
+  margin-top: -1.1em;
+}
+#linkinput{
+  width: 12em;
+  height: 1.5em;
+  font-size: large;
+  border-radius: 5%;
+   -webkit-transition: width 1s ease-in-out;
+  transition: width 1s ease-in-out;
+  text-align: center;
+  margin-left: 30em;
+}
+#linkinput[type=text]:hover{
+  width: 18em;
+}
+#linkupnut[type=text]:focus{
+  width: 18em;
+}
+#submitButton:hover{
+  cursor: pointer;
+}
+.mainelements{
+  width: 100%;
+}
+/*
+.dbctrl{
+
+  margin-right: 50px;
+}
+*/
+/*
+#saveDB {
+  margin-left:2em;
+  color: black;
+  font-weight: 700;
+  padding: .75em;
+  border: 3px rgb(17, 133, 17) solid;
+  background: linear-gradient(to right,rgb(77, 173, 77), rgb(17, 133, 17));
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.5s 0s;
+}
+
+#saveDB:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+*/
+
+#removeDB {
+  float: right;
+  margin-right: 4em;
+  color: white;
+  font-weight: 700;
+  padding: .75em;
+  border: 3px rgb(200, 68, 68) solid;
+  background: linear-gradient(to right, rgb(231, 100, 100), rgb(200, 68, 68));
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.34s 0s;
+}
+
+#removeDB:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+#help {
+  float: right;
+  margin-right: 19em;
+  color: white;
+  font-weight: 700;
+  padding: .75em;
+  border: 3px rgb(17, 133, 17) solid;
+  background: linear-gradient(to right,rgb(77, 173, 77), rgb(17, 133, 17));
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.34s 0s;
+}
+
+#help:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+#topdiv{
+  background-color: #262626;
+  color: white;
+  margin-top: -2.3em;
+  margin-left: -1em;
+  margin-right: -0.1em;
+  margin-bottom: 0.7em;
+  padding-top: 1.5em;
+  padding-bottom: 0.7em;
+}
+
+#removerIco{
+    color: red;
+  margin-left: 30px;
+}
+#removerIco:hover{
+  cursor: pointer;
+}
+#chartIMG:hover{
+  cursor: pointer;
+  color: #f86210;
+
+}
+#chartIMG{
+    color: blue;
+    margin-left: 2px;
+    float: left;
+    margin-top: 11px;
+}
+#chartTEXT{
+  color: blue;
+  margin-left: 2px;
+}
+#seecharttext{
+  color: blue;
+}
+#cpr_{
+  font-size: x-large;
+  font-weight: 700;
+  color: indianred;
+}
+.ceneoImgLink{
+  margin-left: -7px;
+}
+.wrapChart{
+  overflow:auto;
+}
+.wraptxt{
+  float: left;
+}
+
+.loadingT {
+  margin-left: -1em;
+  position: fixed;
+  border: 1px solid #000;
+  height: 120%;
+  width: 101%;
+  background: #FFF;
+  background-color: #541C41;
+
+}
+.loadingText {
+  text-align: center;
+  color: white;
+  padding-top: 20%;
+  font-size: xx-large;
+}
+#inlineFrameExample{
+  visibility: hidden;
+}
+h2{
+  font-size: xx-large;
+}
+
+p{
+  color: green;
+}
+
+/* https://projects.lukehaas.me/css-loaders/*/
+
+.loader {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 100px auto;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-animation: load4 1.3s infinite linear;
+  animation: load4 1.3s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+@-webkit-keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}
+@keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}
